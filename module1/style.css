@@ -684,6 +684,21 @@ second slide */
     margin: 0px auto;
     padding-left: 50px;  
   }
+	
+ .slider__arrows{
+    display: flex;
+    cursor: pointer;
+  }
+
+  .slider__arrow-left{
+    position: relative;    
+    left: 580px;
+  }
+  
+  .slider__arrow-right{
+    position: relative;    
+    left: 580px;
+  }
 
 }
 
