@@ -33,9 +33,6 @@ h1,h2,h3,h4,h5,h6{
   margin: 0px auto;
 }
 
-
-
-
 .header{
   padding-top: 30px;
   position: absolute;  
@@ -101,9 +98,6 @@ h1,h2,h3,h4,h5,h6{
   top: 110px;
 }
 
-
-
-
 .intro__title{
   color: var(--title-black);
   font-family: var(--page-font);
@@ -112,11 +106,6 @@ h1,h2,h3,h4,h5,h6{
   font-size: 80px;
   line-height: 110%;
 }
-
-
-
-
-
 
 .intro__text{
   /* margin-top: 50px; */
@@ -190,7 +179,6 @@ h1,h2,h3,h4,h5,h6{
   height: 180px;
   color:var(--text-grey);
   padding-top: 40px;
-
 }
 
 .description__picture{
@@ -288,8 +276,7 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 800;
   font-size: 16px;
   line-height: 160%;
-  letter-spacing: 0.005em;
-  
+  letter-spacing: 0.005em;  
   width: 120px;
   height: 26px;
   cursor: pointer;
@@ -458,7 +445,6 @@ hr{
 .footer__info{
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer__logo{
@@ -558,12 +544,10 @@ hr{
 /* --------------------------
 second slide */
 .container__small{
-
   max-width: 650px;
   margin: 0px auto;
 }
 .wrapper1{
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -573,18 +557,18 @@ second slide */
 }
 
 .wrapper2{
-
   display: flex;
   justify-content: left;
   align-items: center;
   width: 80%;
   margin: 0px auto;
 }
+
 .first-logo{
   display: block;
   width: 80px;
   height: 80px;
-  background: url('./img/slab_logo.png')
+  background: url('./img/slab_logo.png');
 }
 
 .site__name{
@@ -633,8 +617,7 @@ second slide */
     
   }
 
-  .header__inner{
-    
+  .header__inner{    
     width: var(--media-medium-width-container);
     display: flex;
     justify-content: space-evenly;
@@ -716,13 +699,12 @@ second slide */
   }
 
   .header__logo{
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
   }
+	
   .container{
     width: var(--media-small-width-container);    
     margin: auto;
-
   }
 
   .header__inner{  
@@ -730,9 +712,9 @@ second slide */
     justify-content: space-between;
     align-items: center;
     width: var(--media-small-width-container);
-    padding-top: 77px;
-    
+    padding-top: 77px;    
   }
+	
   .intro__title{    
     font-size: 24px;
     text-align: center;
@@ -751,8 +733,7 @@ second slide */
     width: 500px;
     margin: 0px auto;    
   }
-
-
+	
   .btn{
     margin:0 auto;
     transform: translateX(-55%);
@@ -841,9 +822,7 @@ second slide */
     margin-top: 60px;
     padding-left: 0;
   }
-
-
-
+	
   .slider__title{
     font-size: 24px;
     margin: 0px auto;
@@ -918,14 +897,11 @@ second slide */
   margin-top: 20px;
 }
 
-
-
 .social-media__logos{
   width: var(--media-small-width-container);
   margin-bottom: 50px;
   margin-top: 40px;
 }
-
 
 .footer{
   margin-top: 40px;
@@ -951,7 +927,6 @@ second slide */
   text-align: center;
   width: var(--media-small-width-container);
   padding-left: 0;
-
 }
 
 .footer__address{
