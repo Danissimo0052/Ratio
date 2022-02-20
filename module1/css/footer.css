@@ -1,0 +1,175 @@
+hr{
+  margin-top: 120px;
+  width: 100vw;
+  height: 2px;
+  left: 0px;
+  top: 3648px;
+  background: var(--purple-bg);
+  opacity: 0.2;
+}
+
+.footer{
+  margin-top: 120px;
+  padding-bottom: 100px;
+  
+}
+
+.footer__info{
+  display: flex;
+  justify-content: space-between;
+  
+  max-width: 1120px;
+}
+
+
+.footer__wrapper1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 240px;
+  
+}
+
+.footer__title{
+  font-family: var(--page-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: var(--title-black);
+  
+  max-width: 155px;
+
+}
+
+.footer__address{
+  font-family: var(--page-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: var(--title-black);
+  max-width: 335px;
+  width: 100%;
+  min-height: 65px;
+  margin-top: 30px;
+  
+}
+
+.footer__gmail-telephone{
+  font-family: var(--page-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: var(--title-black);
+  max-width: 335px;
+  min-height: 60px;
+  
+}
+
+.footer__copyright{
+  font-family: var(--page-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: var(--title-black);
+  max-width: 335px;
+  min-height: 50px;
+  margin-top: 30px;
+  
+}
+
+.footer__social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  height: 100px;
+  
+}
+.social-media__title{
+  font-family: var(--page-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--title-black);
+  margin-bottom: 5px;
+  
+}
+
+.social-media__logos{
+  max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  
+}
+
+.fab{
+  display: block;
+  height: 45px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+@media (min-width:320px) and (max-width:768px){
+
+  .social-media__logos{
+    width: var(--media-small-width-container);
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  .footer{
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer__info{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+
+
+  .footer__wrapper1{
+    margin-top: 50px;
+    width: var(--media-small-width-container);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+  
+    margin-left: 30px;
+  }
+
+  .footer__wrapper-left{
+    text-align: center;
+    width: var(--media-small-width-container);
+    padding-left: 0;
+  }
+
+  .footer__address{
+    width: var(--media-small-width-container);
+  }
+
+  .footer__gmail-telephone{
+    width: var(--media-small-width-container);
+  }
+
+  .footer__copyright{
+    width: var(--media-small-width-container);
+  }
+
+
+}
